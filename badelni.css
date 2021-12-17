@@ -1,0 +1,150 @@
+body.offcanvas-active{
+	overflow:hidden;
+}
+.offcanvas-header{
+	display:none;
+}
+
+@media (max-width: 992px){
+	.offcanvas-header{
+		display:block;
+	}
+  .navbar-collapse {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 100%;
+    width: 30%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #0F5298;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+		opacity: 0.9;
+  }
+	.navbar-collapse.show {
+		visibility: visible;
+		transform: translateX(-100%);
+	}
+	#searchBar{
+		width: 80%;
+	}
+	#searcIcon{
+		height: 2em;
+		width: 2em;
+	}
+	#footer{
+		text-align: center;
+	}
+}
+
+@media (max-width: 10.3227539062499991118216in) {
+	#loginOrSignup{
+		min-width: 50%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
+	#bookIdentification{
+		color: white;
+		background-color: black;
+	}
+	#bookDescription{
+		color: white;
+		background-color: black;
+	}
+}
+
+@media (max-width: 9in) {
+	.navbar-collapse {
+		width: 40%
+	}
+	#loginOrSignup{
+		min-width: 60%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
+	#bookIdentification{
+		color: white;
+		background-color: black;
+	}
+	#bookDescription{
+		color: white;
+		background-color: black;
+	}
+}
+
+@media (max-width: 7in) {
+	.navbar-collapse {
+		width: 50%
+	}
+	#loginOrSignup{
+		min-width: 80%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
+	#bookIdentification{
+		color: white;
+		background-color: black;
+	}
+	#bookDescription{
+		color: white;
+		background-color: black;
+	}
+}
+
+@media (max-width: 5in) {
+	.navbar-collapse {
+		width: 80%
+	}
+}
+#loginCard{
+	border-radius: 10px;
+	opacity: 0.6;
+}
+
+#signupCard{
+	border-radius: 10px;
+	opacity: 0.6;
+}
+
+#languageMenu{
+	border-radius: 5px;
+}
+
+.footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+}
+#bookInfo{
+	display: flex;
+}
+#bookIdentification{
+	border-radius: 10px;
+	opacity: 0.6;
+}
+#bookDescription{
+	border-radius: 10px;
+	opacity: 0.6;
+}
