@@ -79,3 +79,7 @@ body {
 #subjectCard{
   margin-bottom: 15px;
 }
+
+.bg-purple {
+  background-color: #6f42c1;
+}
